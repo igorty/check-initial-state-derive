@@ -1,0 +1,11 @@
+[package]
+name = "check-initial-state-derive"
+version = "0.1.0"
+authors = ["Igor Taranenko <igor.tar@yahoo.com>"]
+publish = false
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
