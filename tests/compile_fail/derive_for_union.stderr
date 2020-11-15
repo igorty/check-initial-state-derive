@@ -1,0 +1,7 @@
+error: `CheckInitialState` procedural macro is allowed for structs with named fields only
+ --> $DIR/derive_for_union.rs:6:1
+  |
+6 | / union Union {
+7 | |     integer: i32,
+8 | | }
+  | |_^

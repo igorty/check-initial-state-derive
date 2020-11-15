@@ -1,0 +1,9 @@
+error[E0308]: mismatched types
+ --> $DIR/struct_with_other_fields_not_annotated.rs:9:10
+  |
+9 | #[derive(CheckInitialState)]
+  |          ^^^^^^^^^^^^^^^^^ expected enum `std::option::Option`, found `i32`
+  |
+  = note: expected reference `&std::option::Option<_>`
+             found reference `&i32`
+  = note: this error originates in a derive macro (in Nightly builds, run with -Z macro-backtrace for more info)

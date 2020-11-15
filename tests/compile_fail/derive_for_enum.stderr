@@ -1,0 +1,5 @@
+error: `CheckInitialState` procedural macro is allowed for structs with named fields only
+ --> $DIR/derive_for_enum.rs:6:1
+  |
+6 | enum Enum {}
+  | ^^^^^^^^^^^^

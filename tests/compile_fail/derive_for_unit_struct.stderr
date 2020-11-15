@@ -1,0 +1,5 @@
+error: `CheckInitialState` procedural macro is no allowed for unit structs
+ --> $DIR/derive_for_unit_struct.rs:6:1
+  |
+6 | struct Unit;
+  | ^^^^^^^^^^^^
